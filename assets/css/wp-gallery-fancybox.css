@@ -1,0 +1,20 @@
+/* post gallery Only show the first thumbnail */
+.wgf-post-gallery {
+    position: relative;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.wgf-post-gallery img {
+    float: none !important;
+    margin: 0 auto !important;
+    display: block;
+}
+
+.wgf-post-gallery > .wgf-post-gallery-elements {
+    display: none !important;
+}
+
+.wgf-post-gallery > .wgf-post-gallery-elements:first-child {
+    display: block !important;
+}
